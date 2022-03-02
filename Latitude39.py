@@ -44,7 +44,7 @@ Model = GEO.Model(elementRes=(180, 60),
 # In[4]:
 
 
-Model.outputDir="outputs_tutorial2_ali_revised"
+Model.outputDir="outputs_tutorial2_revised"
 
 Model.diffusivity = 9e-7 * u.metre**2 / u.second 
 Model.capacity    = 1000. * u.joule / (u.kelvin * u.kilogram)
